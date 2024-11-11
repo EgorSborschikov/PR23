@@ -15,7 +15,9 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
+import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
@@ -100,9 +102,13 @@ fun OnboardingScreen() {
                 color = Color(0xFF57A9FF),
                 fontSize = 22.sp,
                 modifier = Modifier
-                    .clickable {
+                    .clickable (
+                        indication = null,
+                        interactionSource = remember { MutableInteractionSource() }
+                    ) {
                         if (pagerState.currentPage == pages.lastIndex) {
                             val intent = Intent(context, LogInActivity::class.java)
+                            intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                             context.startActivity(intent)
                         } else {
                             coroutineScope.launch {
