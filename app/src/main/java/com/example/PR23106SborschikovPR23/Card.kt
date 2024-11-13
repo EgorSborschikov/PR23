@@ -1,4 +1,4 @@
-package com.example.pr23_dmitrygolobokov_pr23106
+package com.PR23106SborschikovPR23
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

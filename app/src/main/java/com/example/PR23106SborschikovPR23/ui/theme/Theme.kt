@@ -1,6 +1,5 @@
-package com.example.pr23_dmitrygolobokov_pr23106.ui.theme
+package com.PR23106SborschikovPR23.pr23_dmitrygolobokov_pr23106.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

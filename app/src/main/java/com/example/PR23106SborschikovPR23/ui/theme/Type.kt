@@ -1,4 +1,4 @@
-package com.example.pr23_dmitrygolobokov_pr23106.ui.theme
+package com.PR23106SborschikovPR23.pr23_dmitrygolobokov_pr23106.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,4 +1,4 @@
-package com.example.pr23_dmitrygolobokov_pr23106
+package com.PR23106SborschikovPR23
 
 import android.content.Intent
 import android.os.Bundle
@@ -28,6 +28,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
+import com.example.PR23106SborschikovPR23.R
 import com.google.accompanist.pager.*
 import kotlinx.coroutines.launch
 

@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pr23_dmitrygolobokov_pr23106"
+    namespace = "com.example.PR23106SborschikovPR23"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.pr23_dmitrygolobokov_pr23106"
+        applicationId = "com.example.PR23106SborschikovPR23"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
