@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">pr23_dmitrygolobokov_pr23106</string>
+    <string name="app_name">PR23106SborschikovPR23</string>
     <string name="title_activity_log_in">LogInActivity</string>
     <string name="title_activity_code">Code</string>
     <string name="title_activity_create_password">CreatePassword</string>

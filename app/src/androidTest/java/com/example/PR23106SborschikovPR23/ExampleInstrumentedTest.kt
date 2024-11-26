@@ -1,4 +1,4 @@
-package com.PR23106SborschikovPR23.pr23_dmitrygolobokov_pr23106
+package com.example.PR23106SborschikovPR23
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

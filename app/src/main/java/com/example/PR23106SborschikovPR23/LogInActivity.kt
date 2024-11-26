@@ -1,4 +1,4 @@
-package com.PR23106SborschikovPR23
+package com.example.PR23106SborschikovPR23
 
 import android.content.Intent
 import android.os.Bundle

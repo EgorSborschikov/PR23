@@ -15,26 +15,26 @@
             android:name=".Card"
             android:exported="false"
             android:label="@string/title_activity_card"
-            android:theme="@style/Theme.Pr23_dmitrygolobokov_pr23106" />
+            android:theme="@style/Theme.PR23106SborschikovPR23" />
         <activity
             android:name=".CreatePassword"
             android:exported="false"
             android:label="@string/title_activity_create_password"
-            android:theme="@style/Theme.Pr23_dmitrygolobokov_pr23106" />
+            android:theme="@style/Theme.PR23106SborschikovPR23" />
         <activity
             android:name=".Code"
             android:exported="false"
             android:label="@string/title_activity_code"
-            android:theme="@style/Theme.Pr23_dmitrygolobokov_pr23106" />
+            android:theme="@style/Theme.PR23106SborschikovPR23" />
         <activity
             android:name=".LogInActivity"
             android:exported="false"
             android:label="@string/title_activity_log_in"
-            android:theme="@style/Theme.Pr23_dmitrygolobokov_pr23106" />
+            android:theme="@style/Theme.PR23106SborschikovPR23" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.Pr23_dmitrygolobokov_pr23106.Starting">
+            android:theme="@style/Theme.PR23106SborschikovPR23.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
